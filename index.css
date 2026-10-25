@@ -1,0 +1,89 @@
+* {
+  font-family: AvenirNextCondensed;
+}
+
+header {
+    position: relative;
+    text-align: center;
+}
+
+h1 {
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  left: 10px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    margin: auto;
+}
+
+.wrapper {
+    width: 700px;
+    border: 1px solid white;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.sidebar {
+    width: 160px;
+    float: left;
+    background-color: gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    height: 517px
+}
+
+.sidebar h3 {
+    margin-bottom: 3px;
+}
+
+.sidebar ul {
+    margin-top: 3px;
+}
+
+.menuitem {
+    font-size: medium;
+    margin-bottom: 5px;
+}
+
+.content {
+    overflow: hidden;
+    padding-left: 50px;
+}
+
+li {
+    list-style-type: circle;
+}
+
+p, 
+li {
+  font-size: 18px;
+}
+
+footer {
+    background-color: gray;
+    padding: 10px;
+    border-top: 1px solid white;
+}
+
+footer p {
+    color: white;
+}
+
+#html {
+    color: orange;
+}
+
+#css {
+    color: blue;
+}
+
+#javascript {
+    color: green;
+}
+
